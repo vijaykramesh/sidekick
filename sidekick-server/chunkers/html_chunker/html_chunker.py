@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup, PageElement, Tag
 from markdownify import MarkdownConverter
 import re
 import uuid
-import tiktoken
 
 from models.models import (
     DocumentChunk,
